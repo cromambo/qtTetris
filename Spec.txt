@@ -1,0 +1,36 @@
+-Fixed size Tetris board (how big?)
+7 Pieces(Tetronimos): left L, right L, T, Line, Square, Right S, Left S
+-next piece indicator
+5? levels of speed, advanced from start every 10? lines
+-current score: 
+lines, points, more on higher speeds (start with speed*lines cleared*lines cleared). More points per number of lines at once.
+level
+-high score list, name, score, persistent through a file (what type of file?)
+-Icon
+-Controls: 
+move left(left arrow), 
+move right(right arrow), 
+move down quicker aka softdrop(down arrow), 
+drop and lock to bottom aka harddrop (space?), 
+rotate (up arrow)
+pause(P)
+-Some sounds: lines being cleared
+-Lose condition: Cant put a new piece in because that spot is blocked.
+-Starting position of all pieces is rotated so they are no more than two high.
+-there is a slight delay(1/2 to one second, or base it on the level speed?) when piece hits the bottom where it can still be rotated.
+Menus: About, High Score, Pause, Exit, Help (controls and explain rules/scoring), Sound On/Off (remember between playthroughs?, default off?), New Game, Level Select
+On end game, if score is new high score, popup text entry for name. (remember last used name between runs of program?)
+
+Could do:
+-spaceship piece that Raven wanted (irl friend)
+-different background per level
+-background music
+-Mark the top two rows with a thin red line to indicate the losing area.
+-back to back Tetris(4 lines cleared at once) award extra points
+-distance harddropped awards extra points
+-more transparent scoring, show the formula for score
+
+DO NOT do
+-hold boxes, which lets you delay a piece for later. This makes the game worse by letting you save up lines until you need them and removes drama. Tetris is funnest when you don't get the right piece on time and are trying to hold on for it to come.
+-more than one next box. This makes the game worse by simplifying the decision and drama of whether to go for some lines now or wait for that exciting line piece.
+-the 7 bag. This gives you one of each piece in a group of 7, lessening randomness. The predictabilty leads to being able to make patterns that never lose, and lessens tension.
