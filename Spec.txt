@@ -1,5 +1,5 @@
--Fixed size Tetris board (how big?)
-7 Pieces(Tetronimos): left L, right L, T, Line, Square, Right S, Left S
+-Fixed size Tetris board (how big?) 10wide, 22 high
+7 Pieces(Tetronimos): left L, right L, T, Line, Square, Right S, Left S - may need an 8th, no shape, for implementation.
 -next piece indicator
 5? levels of speed, advanced from start every 10? lines
 -current score: 
@@ -13,6 +13,7 @@ move right(right arrow),
 move down quicker aka softdrop(down arrow), 
 drop and lock to bottom aka harddrop (space?), 
 rotate (up arrow)
+--rotate left/right?
 pause(P)
 -Some sounds: lines being cleared
 -Lose condition: Cant put a new piece in because that spot is blocked.
